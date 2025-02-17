@@ -1,0 +1,38 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.experience__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.experience__heading {
+  display: inline;
+}
+
+.experience__period {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--variant-color);
+}
+
+.experience__link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--variant-color);
+}
+
+.experience__position {
+  font-size: 18px;
+  line-height: 26px;
+}

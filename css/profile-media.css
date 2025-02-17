@@ -1,0 +1,119 @@
+@media screen and (max-width: 769px) {
+  /* profile-hero */
+  .profile-hero {
+    gap: 56px;
+  }
+
+  .profile-hero__picture {
+    max-width: 320px;
+  }
+
+  .profile-hero__content {
+    width: 100%;
+    max-width: 352px;
+  }
+
+  .profile-hero__btn--wrapper {
+    margin-top: 42px;
+  }
+
+  /* social */
+  .social__list {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .social__item {
+    max-width: unset;
+    width: 100%;
+  }
+
+  /* experience */
+  .experience__list {
+    gap: 30px;
+  }
+
+  .experience__item {
+    gap: 3px;
+  }
+
+  /* portfolio */
+  .portfolio__list {
+    gap: 23px;
+  }
+
+  .portfolio__card {
+    gap: 32px;
+  }
+
+  .portfolio__picture {
+    width: 100%;
+    max-width: 260px;
+    max-height: 313px;
+  }
+
+  .portfolio__content {
+    gap: 18px;
+    padding-top: 16px;
+    max-width: 372px;
+    width: 100%;
+  } 
+
+  .portfolio__project {
+    padding: 41px 32px;
+  }
+
+  .portfolio__ibm--pic {
+    padding: 27px 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  body {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  /* profile-hero */
+  .profile-hero {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .profile-hero__content {
+    max-width: 403px;
+  }
+
+  .profile-hero__btn--wrapper {
+    margin-top: 41px;
+  }
+
+  /* social */
+  .social__text {
+    display: none;
+  }
+
+  .social__icon {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  /* portfolio */
+  .portfolio__project {
+    padding: 32px;
+  }
+
+  .portfolio__card {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .portfolio__content {
+    gap: 17px;
+  }
+
+  .portfolio__ibm--pic {
+    padding: 0;
+  }
+}
+
